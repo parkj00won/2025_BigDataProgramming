@@ -1,4 +1,15 @@
 a = 10
-print(a)
+b= 20
 
-b = 20
+print(a)
+print(b)
+
+
+print(type(a))
+print(id(a))
+
+print(type(b))
+print(id(b))
+
+print(dir(a))
+
