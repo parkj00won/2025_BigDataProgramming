@@ -1,5 +1,6 @@
 import pandas as pd
 
 covid_file_path = './data/owid-covid-data.csv'
-df = pd.read_csv(covid_file_path)
+covid_file_path = './data/data_bar.csv'
+df = pd.read_csv(covid_file_path, sep='|')
 print(df)
