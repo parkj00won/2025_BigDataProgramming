@@ -10,5 +10,5 @@ from decimal import Decimal
 
 a2 = Decimal("0.1")
 b2 = Decimal("0.2")
-c2 = a2 + b2
-print(c2)
+c3 = a2 + b2
+print(c3)
