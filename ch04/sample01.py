@@ -37,6 +37,6 @@ print(locations.unique())
 print(locations.unique().size)
 
 #South Korea
-south_korea_df = selected_df[selected_df['iso_code'] == 'South Korea']
+south_korea_df = selected_df[selected_df.location == 'South Korea']
 print('-'*50)
 print(south_korea_df.head())
