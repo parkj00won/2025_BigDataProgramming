@@ -24,6 +24,7 @@ print(df.head())
 #원하는 컬럼만
 selected_columns = ['iso_code', 'location', 'date','total_cases','population']
 selected_df = df[selected_columns]
+
 print('-'*50)
 print(selected_df.head())
 
