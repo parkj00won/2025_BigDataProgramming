@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from matplotlib import pyplot as plt
-
+from ch05.common_function import init_plt
 
 #kor 데이터(1, 1, 2....)
 #usa 데이터(2, 3, 1....)
