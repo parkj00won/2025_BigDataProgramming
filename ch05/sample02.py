@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib import rc
 
-from ch05.sample03 import is_windows_platform, is_mac_platform
+from ch05.common_function import is_windows_platform, is_mac_platform
 
 #한글폰트 설정
 if is_windows_platform():
