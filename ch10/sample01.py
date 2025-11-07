@@ -16,6 +16,7 @@ df_raw['date'] = pd.to_datetime(df_raw['submission_date'])
 
 # 2021년도 하와이 인구수: 1,441,553명
 df_raw['population'] = 1441553
+df_raw['total_cases'] = df_raw['tot_cases']
 
 # 원하는 컬럼 : 날짜, 감연자수,인구수
 print('-'*50)
@@ -25,7 +26,7 @@ print(df_raw.info())
 # # df_raw 데이터프레임에 population컬럼을 추가
 # df_raw['population'] = 0
 
-hi_columns = ['date', 'tot_cases', 'population']
+hi_columns = ['date', 'total_cases', 'population']
 df_raw_filter = df_raw[hi_columns]
 print('-'*50)
 print(df_raw_filter.head())
